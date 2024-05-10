@@ -17,7 +17,7 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'Javascript',
+    title: 'JavaScript',
     icon: <FaJs className='h-16 w-16 text-emerald-500' />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
@@ -32,26 +32,10 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
+    img: 'https://github.com/georgi1141/Static-Personal-Website/blob/main/images/Screenshot%202024-05-10%20at%2021.07.58.png?raw=true',
+    url: 'https://kameliya-gruhlanski.com/',
+    github: 'https://github.com/georgi1141/Static-Personal-Website',
+    title: 'static website',
+    text: 'I built this simple static website for a local business in Bulgaria. I have used HTML and CSS. The user can make a request through a form that will make a POST request and will send an email to the business owner.',
+  }
 ];
