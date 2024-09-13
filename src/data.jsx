@@ -36,6 +36,13 @@ export const projects = [
     url: 'https://kameliya-gruhlanski.com/',
     github: 'https://github.com/georgi1141/Static-Personal-Website',
     title: 'static website',
-    text: 'I built this simple static website for a local business in Bulgaria. I have used HTML and CSS. The user can make a request through a form that will make a POST request and will send an email to the business owner.',
+    text: `Local Business Website is a clean and responsive static site built with HTML and CSS, tailored for a local business in Bulgaria. The site features a user-friendly interface, allowing visitors to easily make requests via a form that sends a POST request, directly emailing the business owner for quick and efficient communication.`,
+  },
+  {
+    id: nanoid(),
+    img: '/familyTree.png',
+    url: 'https://project-30-two.vercel.app/',
+    title: 'Family Tree',
+    text: `Family Tree Creator is an interactive web application built with React and Firebase, allowing users to log in and create personalized family trees using the D3.js library. Easily design and visualize your family's lineage, then download your unique creation to keep or share with others.`,
   }
 ];
