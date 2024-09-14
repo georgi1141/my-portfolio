@@ -10,7 +10,7 @@ function About() {
                 <img src={aboutSvg} className='w-full h-64' alt="picture with people interacting on a keyboard" />
                 <article>
                     <SectionTitle text={'About me'} />
-                    <p className='text-slate-600 mt-8 leading-loose'>As a recent graduate in Front-End Development, I specialize in React and have hands-on experience with both MEAN and MERN stack technologies. I'm eager to apply my skills in an entry-level or Junior position where I can contribute to innovative projects.</p>
+                    <p className='text-slate-600 mt-8 leading-loose'>Seasoned Software Engineer with experience in developing and delivering high-quality software solutions, specializing in React and React Native. Adept at researching and integrating cutting-edge technologies, while consistently adhering to best practices. Proven ability to create stable, maintainable codebases and significantly improve productivity through strong team collaboration and clear communication. Passionate about building scalable, user-centric applications that drive business success.</p>
                 </article>
             </div>
         </section>
